@@ -1,0 +1,12 @@
+{
+    "name": "ionl/bref",
+    "authors": [
+        {
+            "name": "ionl",
+            "email": "ionl@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "bref/bref": "^0.5.12"
+    }
+}
