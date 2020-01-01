@@ -1,16 +1,16 @@
-service: app
+service: app-bref
 
 provider:
     name: aws
-    region: us-east-1
+    region: eu-west-1
     runtime: provided
 
 plugins:
     - ./vendor/bref/bref
 
 functions:
-    function:
+    demo:
         handler: index.php
-        description: ''
+        description: 'lambda through Bref who simplifies php serverless'
         layers:
-            - ${bref:layer.php-73}
+            - ${bref:layer.php-74}
